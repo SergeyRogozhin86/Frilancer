@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="text" name="username" value="">
+        </div>
+        <div>
+            <input type="tel" name="username" value="">
+        </div>
+        <div>
+            <input type="password" name="userpass" value="frfeg">
+        </div>
+        <br>
+        <div>
+            <p><input type="radio" name="beer" value="lager"> светлое пиво</p>
+        </div>
+        <div>
+            <p><input checked type="radio" name="beer" value="dark"> тёмное пиво</p>
+
+        </div>
+        <br>
+        <div>
+            <p><input checked type="checkbox" name="car" value="yes"> наличие авто</p>
+        </div>
+        <div>
+            <p><input type="checkbox" name="car2" value="yes"> наличие авто 2</p>
+        </div>
+        <div>
+            <p><input type="checkbox" name="car3" value="yes"> наличие авто 3</p>
+        </div>
+        <br>
+        <div>
+            <p><input type="file" name="foto" value=""></p>
+        </div>
+    </form>
+    <form action="#" method="get">
+        <p>Имя</p>
+        <input placeholder="Имя" type="text" name="username" tabindex="1">
+        <p>Пароль</p>
+        <input placeholder="Пароль" type="password" name="userpass" tabindex="2">
+        <p>телефон</p>
+        <input type="tel" name="userphne" placeholder="Телефон" tabindex="3">
+        <p>Пол</p> 
+        <p><input type="radio" name="sex" value="man" tabindex="4">Мужской</p>
+        <p><input type="radio" name="sex" value="woman" tabindex="4">Женский</p>
+        <p>Имущество</p>
+        <p><input type="checkbox" name="bickle" value="yes" tabindex="5"> велосипед</p>
+        <p><input type="checkbox" name="car" value="yes"tabindex="6"> тачка</p>
+        <p><input type="checkbox" name="room" value="yes"tabindex="7"> комната</p>
+
+
+
+        <p>Дополнительная информация</p>
+        <textarea name="info" tabindex="8"></textarea>
+        <p>Прикрепить фото</p>
+        <input type="file" name="foto" tabindex="9">
+        <p>любимый цвет</p>
+        <select name="color" tabindex="10">
+            <option value="red">красный</option>
+            <option value="blue">голубой</option>
+            <option value="yellow">синий</option>
+        </select>
+        <p>Действия</p>
+        <button type="submit" tabindex="11">отправить</button>
+        <button type="reset" tabindex="12">очистить</button>
+
+    </form>
+    
+</body>
+</html>
