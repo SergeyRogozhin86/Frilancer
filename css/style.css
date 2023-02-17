@@ -34,11 +34,13 @@ color: #030600;
   }
 
   .header{
-    background: #0a8f41;
+  
    padding-top: 56px;
-    position: fixed;
+    
+   position: fixed;
     top: 0;
     left: 0;
+    
     width: 100%;
   }
 
@@ -62,4 +64,10 @@ color: #030600;
   }
   .header_a:hover, .header_a:focus, .header_a:active{
     opacity: 75%;
+  }
+
+  .intro{
+    height: 100vh;
+    background: url(../img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
   }
