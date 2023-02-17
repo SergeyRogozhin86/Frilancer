@@ -35,10 +35,11 @@ color: #030600;
 
   .header{
     background: #0a8f41;
-    margin: 56px 0 ;
+   padding-top: 56px;
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
   }
 
   .wrapper_header{
@@ -59,4 +60,6 @@ color: #030600;
     color: #FFFFFF;
     text-decoration: none;
   }
-  
+  .header_a:hover, .header_a:focus, .header_a:active{
+    opacity: 75%;
+  }
