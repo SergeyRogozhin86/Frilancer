@@ -34,20 +34,17 @@ color: #030600;
   }
 
   .header{
-  
    padding-top: 56px;
-    
    position: fixed;
     top: 0;
     left: 0;
-    
     width: 100%;
   }
 
   .wrapper_header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
    
   }
 
@@ -70,4 +67,52 @@ color: #030600;
     height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px
   }
+
+  h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    max-width: 619px;
+    margin-bottom: 22px;
+  }
+
+.intro_subtitle{
+  color: #FFFFFF;
+  max-width: 546px;
+  margin-bottom: 59px;
+}
+
+.intro_wrapper{
+  display: flex;
+
+}
+
+.search_form_info{
+  display: flex;
+  flex-wrap: wrap;
+  grid-template: 60px;
+}
+
+.search-form_field{
+  width: 297px;
+  background: transparent url(/img/Oval.svg) no-repeat left top;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #BFC0C5;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+
+}
+
+.search-form_field::placeholder{
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
