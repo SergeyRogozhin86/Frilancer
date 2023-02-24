@@ -64,10 +64,13 @@ color: #030600;
   }
 
   .intro{
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 263px
+    padding-top: 263px;
+    padding-bottom: 223px;
+  
+ 
   }
 
   h1{
@@ -93,12 +96,12 @@ color: #030600;
 .search_form_info{
   display: flex;
   flex-wrap: wrap;
-  grid-template: 60px;
+
 }
 
 .search-form_field{
   width: 297px;
-  background: transparent url(/img/Oval.svg) no-repeat left top;
+  background: transparent url(/img/Oval.svg) no-repeat left  6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #BFC0C5;
@@ -116,3 +119,44 @@ color: #030600;
   font-size: 18px;
   color: #FFFFFF;
 }
+
+button{
+  padding: 15px 39px;
+  background: #1B7DFF;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+  border: 0;
+}
+
+button:hover, button:focus, button:active{
+
+  background: #1256b1;;
+}
+/*Intro styles end*/
+
+/*Benefit styles start*/
+.benefit__wrapper{
+  max-width: 1262px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  padding: 93px 100px 111px 100px;
+  position: relative;
+}
+
+.title{
+  width: 100%;
+  font-weight: 500;
+  font-size: 35px;
+  color: #102746;
+  padding: 93px 100px 88px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  background-color: #FFFFFF;
+}
+
+
+/*Benefit styles end*/
