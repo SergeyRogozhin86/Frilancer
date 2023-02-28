@@ -288,10 +288,12 @@ button:hover, button:focus, button:active{
   height: 100%;
   object-fit: cover;
   width: 100%;
+  transition: 0.15s all;
   
 }
 .place__card{
   position: relative;
+  overflow: hidden;
 }
 
 .place__card::after{
@@ -316,6 +318,9 @@ button:hover, button:focus, button:active{
   color: #FFFFFF;
 }
 
+.place__card:hover .place__card-pic{
+  transform: scale(1.05);
+}
 
 
 .pop{
