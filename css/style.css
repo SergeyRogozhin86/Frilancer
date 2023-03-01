@@ -219,6 +219,10 @@ button:hover, button:focus, button:active{
 
 
 /*Place styles start*/
+.place{
+  margin-bottom: 131px;
+}
+
 .container__place{
   max-width: 1262px;
   margin: 100%;
@@ -288,17 +292,16 @@ button:hover, button:focus, button:active{
 }
 
 .place__card-pic{
-  max-height: 354px;
-  height: 100%;
-  object-fit: cover;
   width: 100%;
   transition: 0.15s all;
 }
 .place__card-pic-lg{
-  max-height: 283px;
+  height: 354px;
+  object-fit: cover;
 }
 .place__card-pic-sm{
-
+  height: 283px;
+  object-fit: cover;
 }
 
 .place__card{
@@ -332,10 +335,60 @@ button:hover, button:focus, button:active{
   transform: scale(1.05);
 }
 
-
-
-
-.pop{
-  height: 300px;
-}
 /*Place styles end*/
+
+/*Tour styles start*/
+.tours{
+  margin-bottom: 139px;
+}
+
+.tour{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+  
+}
+
+.tour__pic{
+
+
+}
+.tour__title{
+  font-weight: 500;
+  font-size: 30px;
+  color: #102746;
+  
+}
+
+.tour__info{
+  padding-left: 47px;
+}
+
+.tour-desc{
+  font-weight: 400;
+  font-size: 16px;
+  color: #102746;
+  margin-bottom: 58px;
+  margin-top: 85px;
+}
+
+.tour__viev{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #006DFE;
+  text-decoration: none;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  background: url(../img/Shape.png) no-repeat right 5px;
+}
+
+
+.tour__viev:hover{
+  opacity: .5;
+}
+
+
+/*Tour styles end*/
