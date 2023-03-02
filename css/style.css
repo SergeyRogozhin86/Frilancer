@@ -136,7 +136,7 @@ button{
 
 button:hover, button:focus, button:active{
 
-  background: #1256b1;;
+  background: #1256b1;
 }
 /*Intro styles end*/
 
@@ -351,10 +351,7 @@ button:hover, button:focus, button:active{
   
 }
 
-.tour__pic{
 
-
-}
 .tour__title{
   font-weight: 500;
   font-size: 30px;
@@ -389,6 +386,82 @@ button:hover, button:focus, button:active{
 .tour__viev:hover{
   opacity: .5;
 }
-
-
 /*Tour styles end*/
+
+
+/*Top styles start*/
+.top__title{
+  margin-bottom: 54px;
+}
+.top__cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 58px;
+  margin-bottom: 144px;
+}
+.top__card{
+  columns: span 1;
+}
+.top__card-pic{
+  position: relative;
+
+}
+
+.top__card-stat{
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(21, 24, 36, 0.6);
+  padding: 12px 25px;
+}
+.top__carg-title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fcfffd;
+    margin: 0 auto 0 0;
+   
+}
+.top__card-like{
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-right: 20px;
+  background: url(../img/heart-icon.svg) no-repeat right center;
+  margin-right: 14px;
+}
+
+.top__card-comment{
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-right: 23px;
+  background: url(../img/comment-icon.svg) no-repeat right center;
+}
+
+.top__card-desc{
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #102746;
+  margin-bottom: 31px;
+  margin-top: 45px;
+}
+.top__more{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #006DFE;
+  padding: 11px 20px;
+}
+.top__more:hover, .top__more:focus, .top__more:active{
+  background: #1256b1;
+}
+
+
+/*Top styles end*/
