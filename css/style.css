@@ -469,5 +469,29 @@ button:hover, button:focus, button:active{
   background: #1256b1;
 }
 
-
 /*Top styles end*/
+
+/*video styles start*/
+.video{
+  width: 100%;
+
+}
+.video__container{
+  max-width: 1440px;
+  margin: 0 auto;
+  border: #159813 5px solid;
+  position: relative;
+}
+.video__element{
+  padding-top: 56.25%;
+}
+.video__vid{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+/*video styles end*/
