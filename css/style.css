@@ -76,10 +76,11 @@ img{
 
   .intro{
     min-height: 100vh;
-    background: url(../img/intro-bg.jpg) no-repeat center;
+    background: url(../img/Hero.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
     padding-bottom: 223px;
+  
   
  
   }
@@ -474,24 +475,75 @@ button:hover, button:focus, button:active{
 /*video styles start*/
 .video{
   width: 100%;
-
 }
+
 .video__container{
-  max-width: 1440px;
+  max-width: 1262px;
+  width: 100%;
   margin: 0 auto;
-  border: #159813 5px solid;
+  border: #159813 solid 3px;
   position: relative;
 }
 .video__element{
   padding-top: 56.25%;
 }
 .video__vid{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+}
+/*video styles end*/
 
+
+
+
+
+/*foter styles start*/
+
+.footer{
+  background: #0E1D28;
+}
+.footer__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 119px 0;
 }
 
-/*video styles end*/
+.footer__logo{
+  flex-basis: 50%;
+}
+
+.footer__nav{
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__menu{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.footer__title{
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 3px;
+}
+.footer__menu-link{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active{
+  opacity: .70;
+}
+
+
+/*footer styles end*/
