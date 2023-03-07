@@ -8,3 +8,15 @@
         }
     };
 }());
+
+(function () {
+    const burgerItem = document.querySelector('.burger');
+    const menu = document.querySelector('.header_ul');
+    const menuCloseItem = document.querySelector('.header__close');
+    burgerItem.addEventListener('click', () => {
+        menu.classList.add('header_ul_active');
+    });
+    menuCloseItem.addEventListener('click', () => {
+        menu.classList.remove('header_ul_active');
+    });
+}());
